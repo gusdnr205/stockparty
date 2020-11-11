@@ -28,7 +28,7 @@ VSCODE-react, Ebest xingAce
 
 ## __시스템 구조__
 
-<img src="./images/주식트레이딩1.png" width="90%">
+<img src="./images/주식트레이딩1.png" width="70%">
 
 </br>
 
