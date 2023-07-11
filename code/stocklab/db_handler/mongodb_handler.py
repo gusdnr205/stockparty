@@ -18,7 +18,6 @@ class MongoDBHandler:
         host = config['MONGODB']['host']
         port = config['MONGODB']['port']
         self._client = MongoClient(host, int(port))
-        #self._client = MongoClient("mongodb://stocklab:IWBI8qm7pZi9wNs0Lr1dwPi92NEyyvAPnjtZPkTaiSB7iQAMyd10MJD9fkeicb4YxKOJ2hwBbXLYWDtOIAwxIQ==@stocklab.documents.azure.com:10255/?ssl=true&replicaSet=globaldb")
 
     def insert_item(self, data, db_name=None, collection_name=None):
         """
